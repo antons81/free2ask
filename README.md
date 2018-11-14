@@ -16,14 +16,14 @@
 Для тестов token временно не проверяется, потому все ниже изложенные операции можна провести с исходными данными:
 `` https://free2ask.tense.space/api/.../2/2302``
 
-## LINKS
-- (#Cities Resource)
-- (#Сontact center Resource)
-- (#Rules Resource)
-- (#Specialists Resource)
-- (#Users Resource)
-- (#Users Groups Resource)
-- (#Chatlog Resource)
+## Resources
+- Cities Resource
+- Сontact center Resource
+- Rules Resource
+- Specialists Resource
+- Users Resource
+- Users Groups Resource
+- Chatlog Resource
 
 # Cities Resource
 ----------------
