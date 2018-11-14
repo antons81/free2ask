@@ -464,3 +464,35 @@
     GET https://free2ask.tense.space/api/users-group-list/2/2302 HTTP/1.1
 ```    
 
+
+# Chatlog Resource
+----------------
+
+```
+/api/chatlog-list/
+```
+
+### GET
+
+Возвращает log чатов
+
+```
+    GET https://free2ask.tense.space/api/chatlog-list/2/2302 HTTP/1.1
+```    
+
+
+## POST 
+
+Создает нового пользователя и выводит ответ с новой информацией.
+
+| Cвойство | Описание |
+| --- | --- |
+| specialist_id | Идентификатор специалиста |
+| chat_id | Код чата |
+| log | Лог чата |
+
+
+
+```
+    POST /api/add-chatlog HTTP/1.1 specialist_id=1&chat_id=2342342&log=testlog
+```    
