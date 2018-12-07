@@ -232,7 +232,7 @@
 Возвращает все опубликованные правила.
 
 ```
-    GET http://free2ask.org.ua//api/rules-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/rules-list/2/2302 HTTP/1.1
 ```    
 ### Ответ 
 
