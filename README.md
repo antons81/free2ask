@@ -1,20 +1,8 @@
 
 ## REST API Documentation
 
-Следующее Rest API работает в двух направлениях GET и POST. В этом API реализована аутентификация, не зарегестрированый пользователель не получит доступа к информации. Ендпоинт для доступа выглядит следующим образом >>> ``https://free2ask.tense.space/api/``. Для аутентификации нужны: 
+Следующее Rest API работает в двух направлениях GET и POST. В этом API реализована аутентификация, не зарегестрированый пользователель не получит доступа к информации. Ендпоинт для доступа выглядит следующим образом >>> ``http://free2ask.org.ua/api/``. Аутентификация убрана.
 
-| Cвойство | Описание |
-| --- | --- |
-| user_id | Уникальный id идентификатор пользователя |
-| client_id | Идентификатор пользователя |
-| token | Token создается из секретного ключа пользователя |
-
-Таким образом доступ будет осуществлен в при следующих условиях: 
-`` https://free2ask.tense.space/api/.../user_id/client_id/token``
-
-
-Для тестов token временно не проверяется, потому все ниже изложенные операции можна провести с исходными данными:
-`` https://free2ask.tense.space/api/.../2/2302``
 
 ## Resources
 - Cities Resource
@@ -37,7 +25,7 @@
 Возвращает все города (Которые доступны пользователю) - всех специалистов которые закреплены за городом, их расписание и детальную информацию.
 
 ```
-    GET https://free2ask.tense.space/api/cities-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/cities-list/2/2302 HTTP/1.1
 ```    
 ### Ответ 
 
@@ -157,7 +145,7 @@
 Возвращает все контакт центры (Которые доступны опубликованы) их расписание, локацию и детальную информацию.
 
 ```
-    GET https://free2ask.tense.space/api/contact-center-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/contact-center-list/2/2302 HTTP/1.1
 ```    
 ### Ответ 
 
@@ -244,7 +232,7 @@
 Возвращает все опубликованные правила.
 
 ```
-    GET https://free2ask.tense.space/api/rules-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua//api/rules-list/2/2302 HTTP/1.1
 ```    
 ### Ответ 
 
@@ -287,7 +275,7 @@
 Возвращает всех специалистов и информацию о них с привязкой к городам и расписанию.
 
 ```
-    GET https://free2ask.tense.space/api/specialists-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/specialists-list/2/2302 HTTP/1.1
 ```    
 ### Ответ 
 
@@ -436,7 +424,7 @@
 Возвращает всех пользователей сервиса и информацию о них.
 
 ```
-    GET https://free2ask.tense.space/api/users-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/users-list/2/2302 HTTP/1.1
 ```    
 
 
@@ -470,7 +458,7 @@
 Возвращает все группы пользователей и пользователей которые входят в них
 
 ```
-    GET https://free2ask.tense.space/api/users-group-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/users-group-list/2/2302 HTTP/1.1
 ```    
 
 
@@ -486,7 +474,7 @@
 Возвращает log чатов
 
 ```
-    GET https://free2ask.tense.space/api/chatlog-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/chatlog-list/2/2302 HTTP/1.1
 ```    
 
 
