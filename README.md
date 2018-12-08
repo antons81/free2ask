@@ -25,7 +25,7 @@
 Возвращает все города (Которые доступны пользователю) - всех специалистов которые закреплены за городом, их расписание и детальную информацию.
 
 ```
-    GET http://free2ask.org.ua/api/cities-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/cities-list/ HTTP/1.1
 ```    
 ### Ответ 
 
@@ -145,7 +145,7 @@
 Возвращает все контакт центры (Которые доступны опубликованы) их расписание, локацию и детальную информацию.
 
 ```
-    GET http://free2ask.org.ua/api/contact-center-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/contact-center-list/ HTTP/1.1
 ```    
 ### Ответ 
 
@@ -232,7 +232,7 @@
 Возвращает все опубликованные правила.
 
 ```
-    GET http://free2ask.org.ua/api/rules-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/rules-list/ HTTP/1.1
 ```    
 ### Ответ 
 
@@ -275,7 +275,7 @@
 Возвращает всех специалистов и информацию о них с привязкой к городам и расписанию.
 
 ```
-    GET http://free2ask.org.ua/api/specialists-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/specialists-list/ HTTP/1.1
 ```    
 ### Ответ 
 
@@ -424,7 +424,7 @@
 Возвращает всех пользователей сервиса и информацию о них.
 
 ```
-    GET http://free2ask.org.ua/api/users-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/users-list/ HTTP/1.1
 ```    
 
 
@@ -458,7 +458,7 @@
 Возвращает все группы пользователей и пользователей которые входят в них
 
 ```
-    GET http://free2ask.org.ua/api/users-group-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/users-group-list/ HTTP/1.1
 ```    
 
 
@@ -474,7 +474,7 @@
 Возвращает log чатов
 
 ```
-    GET http://free2ask.org.ua/api/chatlog-list/2/2302 HTTP/1.1
+    GET http://free2ask.org.ua/api/chatlog-list/ HTTP/1.1
 ```    
 
 
